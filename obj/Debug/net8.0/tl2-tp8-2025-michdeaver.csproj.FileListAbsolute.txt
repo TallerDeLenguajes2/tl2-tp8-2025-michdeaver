@@ -28,3 +28,4 @@ E:\tallerTP8\tl2-tp8-2025-michdeaver\obj\Debug\net8.0\refint\tl2-tp8-2025-michde
 E:\tallerTP8\tl2-tp8-2025-michdeaver\obj\Debug\net8.0\tl2-tp8-2025-michdeaver.pdb
 E:\tallerTP8\tl2-tp8-2025-michdeaver\obj\Debug\net8.0\tl2-tp8-2025-michdeaver.genruntimeconfig.cache
 E:\tallerTP8\tl2-tp8-2025-michdeaver\obj\Debug\net8.0\ref\tl2-tp8-2025-michdeaver.dll
+E:\tallerTP8\tl2-tp8-2025-michdeaver\obj\Debug\net8.0\tl2-tp8-2025-michdeaver.sourcelink.json
