@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "tl2-tp8-2025-michdeaver/1.0.0": {
+        "runtime": {
+          "tl2-tp8-2025-michdeaver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tl2-tp8-2025-michdeaver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
