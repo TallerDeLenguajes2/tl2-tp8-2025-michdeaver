@@ -1,4 +1,9 @@
-namespace MVC.Models
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace tl2_tp8_2025_michdeaver.Models
 {
     public class Producto
     {

@@ -1,4 +1,4 @@
-namespace MVC.Models
+namespace tl2_tp8_2025_michdeaver.Models
 {
     public class PresupuestoDetalle
     {

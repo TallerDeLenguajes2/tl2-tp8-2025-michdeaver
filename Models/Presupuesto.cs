@@ -1,16 +1,16 @@
 using System.Linq;
-namespace MVC.Models
+namespace tl2_tp8_2025_michdeaver.Models
 {
-    public class Presupuestos
+    public class Presupuesto
     {
         private int idPresupuesto;
         private string nombreDestinatario;
         private DateTime fechaCreacion;
         private List<PresupuestoDetalle> detalles;
 
-        public Presupuestos(){}
+        public Presupuesto(){}
 
-        public Presupuestos(int idPresupuesto, string nombreDestinatario, DateTime fechaCreacion, List<PresupuestoDetalle> detalles)
+        public Presupuesto(int idPresupuesto, string nombreDestinatario, DateTime fechaCreacion, List<PresupuestoDetalle> detalles)
         {
             this.idPresupuesto = idPresupuesto;
             this.nombreDestinatario = nombreDestinatario;
