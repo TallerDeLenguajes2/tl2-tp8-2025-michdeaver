@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "NwFICTNDPeF7cyFJ5S/zyZ7s35RB5bQu3njWmHgkyx9npkAIHW6kNnUk8DX1umfnmmN7Lcpzzc8KahLTi5ihEw==",
+  "dgSpecHash": "N3Gl1nxnv+8=",
   "success": true,
-  "projectFilePath": "E:\\tallerTP8\\tl2-tp8-2025-michdeaver\\tl2-tp8-2025-michdeaver.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/tl2-tp8-2025-michdeaver.csproj",
+  "expectedPackageFiles": [
+    "/Users/michellecamilledeaver/.nuget/packages/microsoft.data.sqlite/10.0.3/microsoft.data.sqlite.10.0.3.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/microsoft.data.sqlite.core/10.0.3/microsoft.data.sqlite.core.10.0.3.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.11/sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.11/sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.18/microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.18/microsoft.netcore.app.host.osx-arm64.8.0.18.nupkg.sha512",
+    "/Users/michellecamilledeaver/.nuget/packages/microsoft.netcore.app.ref/8.0.18/microsoft.netcore.app.ref.8.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

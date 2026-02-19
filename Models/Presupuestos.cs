@@ -1,42 +1,62 @@
-public class Presupuestos
+using System.Linq;
+namespace MVC.Models
 {
-    private int idPresupuesto;
-    private string nombreDestinatario;
-    private DateTime fechaCreacion;
-    List<PresupuestoDetalle> detalle;
-
-
-    public int IdPresupuesto { get => idPresupuesto; set => idPresupuesto = value; }
-    public string NombreDestinatario { get => nombreDestinatario; set => nombreDestinatario = value; }
-    public DateTime FechaCreacion { get => fechaCreacion; set => fechaCreacion = value; }
-    public List<PresupuestoDetalle> Detalle { get => detalle; set => detalle = value; }
-
-    //metodos
-
-    public decimal montoPresupuesto()
+    public class Presupuestos
     {
-        decimal total = 0;
-        foreach (var p in detalle)
+        private int idPresupuesto;
+        private string nombreDestinatario;
+        private DateTime fechaCreacion;
+        private List<PresupuestoDetalle> detalles;
+
+        public Presupuestos(){}
+
+        public Presupuestos(int idPresupuesto, string nombreDestinatario, DateTime fechaCreacion, List<PresupuestoDetalle> detalles)
         {
-            total += p.Cantidad * p.Producto.Precio;
+            this.idPresupuesto = idPresupuesto;
+            this.nombreDestinatario = nombreDestinatario;
+            this.fechaCreacion = fechaCreacion;
+            this.detalles = detalles;
         }
 
-        return total;
-    }
+        public int IdPresupuesto { get => idPresupuesto; set => idPresupuesto = value; }
+        public string NombreDestinatario { get => nombreDestinatario; set => nombreDestinatario = value; }
+        public DateTime FechaCreacion { get => fechaCreacion; set => fechaCreacion = value; }
+        public List<PresupuestoDetalle> Detalles { get => detalles; set => detalles = value; }
 
-    public decimal montoPresupuestoConIVA()
-    {
-        return montoPresupuesto() * 1.21m;
-    }
 
-    public int cantidadProductos()
-    {
-        int total = 0;
-        foreach (var d in detalle)
+        //metodos
+
+        public decimal MontoPresupuesto()
         {
-            total += d.Cantidad;
+            /*
+            decimal total = 0;
+            foreach (var p in Detalles)
+            {
+                total += p.Cantidad * p.Producto.Precio;
+            }
+            */
+            var total = detalles.Sum(d => d.Producto.Precio * d.Cantidad);
+            return total;
         }
 
-        return total;
+        public decimal MontoPresupuestoConIVA()
+        {
+            var total = detalles.Sum(d => d.Producto.Precio * d.Cantidad * 1.21);
+            return (decimal)total;
+        }
+
+        public int CantidadProductos()
+        {
+            return detalles?.Count ?? 0;
+            /*
+            int total = 0;
+            foreach (var d in Detalles)
+            {
+                total += d.Cantidad;
+            }
+
+            return total;
+            */
+        }
     }
 }

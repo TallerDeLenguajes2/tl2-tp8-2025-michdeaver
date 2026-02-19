@@ -1,8 +1,11 @@
-namespace tl2_tp8_2025_michdeaver.Models;
-
-public class ErrorViewModel
+namespace MVC.Models
 {
-    public string? RequestId { get; set; }
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }
+
+
