@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using tp8.Models;
+using tl2_tp8_2025_michdeaver.Models;
 
-namespace tp8.Controllers;
+namespace tl2_tp8_2025_michdeaver.Controllers;
 
 public class HomeController : Controller
 {
