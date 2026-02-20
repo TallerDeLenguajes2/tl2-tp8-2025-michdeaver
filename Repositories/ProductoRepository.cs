@@ -88,6 +88,7 @@ namespace tl2_tp8_2025_michdeaver.Repositories
 
                 command.ExecuteNonQuery();
             }
+            
         }
 
         public void UpdateProducto(int id, Producto newProducto)

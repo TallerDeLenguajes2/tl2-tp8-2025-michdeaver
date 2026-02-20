@@ -13,6 +13,8 @@ namespace tl2_tp8_2025_michdeaver.Models
         private string password;
         private string rol;
 
+        public User(){}
+
         public User(int idUser, string nombre, string username, string password, string rol)
         {
             this.idUser = idUser;
