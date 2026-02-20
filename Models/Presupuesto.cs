@@ -39,7 +39,7 @@ namespace tl2_tp8_2025_michdeaver.Models
             return total;
         }
 
-        public decimal MontoPresupuestoConIVA()
+        public decimal MontoPresupuestoConIva()
         {
             var total = detalles.Sum(d => d.Producto.Precio * d.Cantidad * 1.21);
             return (decimal)total;

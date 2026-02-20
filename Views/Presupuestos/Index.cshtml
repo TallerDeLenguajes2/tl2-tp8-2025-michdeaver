@@ -1,8 +1,41 @@
+    @model IEnumerable<tl2_tp8_2025_michdeaver.Models.Presupuesto>
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Listado de Presupuestos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Presupuestos</h1>
-    <p>Index de Presupuestos</p>
-</div>
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Nuevo Presupuesto</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>IdPresupuesto</th>
+            <th>NombreDestinatario</th>
+            <th>FechaCreacion</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdPresupuesto</td>
+                <td>@item.NombreDestinatario</td>
+                <td>@item.FechaCreacion.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="GetPresupuesto" asp-route-IdPresupuesto="@item.IdPresupuesto" class="btn btn-info btn-sm">Detalles</a>
+                    <a asp-action="Edit" asp-route-IdPresupuesto="@item.IdPresupuesto" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Delete"asp-route-IdPresupuesto="@item.IdPresupuesto" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Logout" asp-controller="Login" class="btn btn-secondary">Cerrar Sesion</a>
+</p>

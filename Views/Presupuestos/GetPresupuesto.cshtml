@@ -1,0 +1,40 @@
+@using Microsoft.AspNetCore.Http.Features
+@model tl2_tp8_2025_michdeaver.Models.Presupuesto
+
+@{
+    ViewData[index: "Title"] = "Detalle de presupuesto";
+}
+
+<h2>@ViewData[index: "Title"]</h2>
+
+
+<p>
+    <a asp-action="AgregarProducto" class="btn btn-primary" asp-route-IdPresupuesto="@Model.IdPresupuesto">Agregar producto</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>IdProducto</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Detalles)
+        {
+            <tr>
+                <td>@item.Producto.IdProducto</td>
+                <td>@item.Producto.Descripcion</td>
+                <td>@item.Producto.Precio</td>
+                <td>@item.Cantidad</td>
+            </tr>
+        }
+        <tr>
+            <td colspan="2">Monto Total</td>
+            <td>SIN IVA: @Model.MontoPresupuesto()</td>
+            <td>IVA: @Model.MontoPresupuestoConIva().ToString("F1")</td>
+        </tr>
+    </tbody>
+</table>

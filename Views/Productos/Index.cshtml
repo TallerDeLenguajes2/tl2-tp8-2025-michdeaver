@@ -1,8 +1,48 @@
+@model IEnumerable<tl2_tp8_2025_michdeaver.Models.Producto>
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Lista de Productos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Productos</h1>
-    <p>Index de Productos</p>
-</div>
+<h2>Lista de Productos</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Producto</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.IdProducto</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.Precio</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-IdProducto="@item.IdProducto" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-action="Delete" asp-route-IdProducto="@item.IdProducto" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No hay productos cargados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Logout" asp-controller="Login" class="btn btn-secondary">Cerrar Sesion</a>
+</p>

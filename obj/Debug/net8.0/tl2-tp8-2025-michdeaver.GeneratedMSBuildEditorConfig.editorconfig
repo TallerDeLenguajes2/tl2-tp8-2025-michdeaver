@@ -28,8 +28,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0FjY2Vzb0RlbmVnYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/AgregarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0FncmVnYXJQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/GetPresupuesto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0dldFByZXN1cHVlc3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Presupuestos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3VwdWVzdG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Productos/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9zL0FjY2Vzb0RlbmVnYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Productos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Productos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Productos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9zL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/michellecamilledeaver/Desktop/Taller referencia II/tl2-tp8-2025-michdeaver/Views/Productos/Index.cshtml]
