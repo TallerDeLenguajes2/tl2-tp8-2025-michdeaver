@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using MVC.Models;
-using MVC.Repositories;
-using MVC.ViewModels;
-using MVC.Interfaces;
-using System.Reflection.Metadata.Ecma335;
+using tl2_tp8_2025_michdeaver.Models;
+using tl2_tp8_2025_michdeaver.Repositories;
+using tl2_tp8_2025_michdeaver.ViewModels;
+using tl2_tp8_2025_michdeaver.Interfaces;
 
-namespace MVC.Controllers
+
+namespace tl2_tp8_2025_michdeaver.Controllers
 {
     public class PresupuestosController : Controller
     {
